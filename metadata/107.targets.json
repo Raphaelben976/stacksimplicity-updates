@@ -1,0 +1,135 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 107,
+    "expires": "2027-04-23T14:05:48.577847Z",
+    "targets": {
+      "ssagent-linux-arm64": {
+        "length": 19225832,
+        "hashes": {
+          "sha256": "963228f725c5cc898a513389c95282c7ab426db735854431c5dcca228e9f2199"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792936106966,
+            "version": "0.3.59",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-macos-arm64": {
+        "length": 16889216,
+        "hashes": {
+          "sha256": "60ad9ad10b7b18c9b6ae706076aa9c8e0a6704dab5578ece4c98258b5e1b8042"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792937148492,
+            "version": "0.3.60",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-linux-x64": {
+        "length": 20170080,
+        "hashes": {
+          "sha256": "636189a8249b019a6012c2bf72466fc0c0f38ba858c15b4446a550546a8395f2"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792936107325,
+            "version": "0.3.59",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-macos-x64": {
+        "length": 18276708,
+        "hashes": {
+          "sha256": "c935812e88c29406b50a0fc3511e76c2b20a9f01e7b03995c59f219f92bdb9a9"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792937148552,
+            "version": "0.3.60",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-windows-arm64.exe": {
+        "length": 15776768,
+        "hashes": {
+          "sha256": "55bb4b7c0e1a421745765c6809c0ff61e04aebbca1f6e358344106a325da7a1b"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792937148433,
+            "version": "0.3.60",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {
+        "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "cd9efb575ba055e7721b6396062e4b722c23c64fdaf69264fa2c11da9f81d8e8"
+          },
+          "scheme": "ed25519"
+        }
+      },
+      "roles": [
+        {
+          "name": "monitoring",
+          "keyids": [
+            "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770"
+          ],
+          "threshold": 1,
+          "paths": [
+            "monitoring-catalog.json"
+          ],
+          "terminating": true
+        }
+      ]
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18cfe1fede878bcecf1b42b00bb2ab24506fae2f7a2b364b368297bfc99c3998",
+      "sig": "fd1582eb04a2c1794c7ccc78357cea62b5a319994804246c23a23a0926034675e87c143827d81de93dc2ae4c4387c6fc254a5a50694aba4a6e0c0ee80fa42a04"
+    }
+  ]
+}

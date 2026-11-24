@@ -1,0 +1,30 @@
+{
+  "signed": {
+    "_type": "snapshot",
+    "spec_version": "1.0.0",
+    "version": 66,
+    "expires": "2026-11-24T10:01:50.962288Z",
+    "meta": {
+      "monitoring.json": {
+        "length": 944,
+        "hashes": {
+          "sha256": "d1fad79437e73e226c0643ab5e2065c61f2e6132b70712e18f3fc2519e991435"
+        },
+        "version": 2
+      },
+      "targets.json": {
+        "length": 3537,
+        "hashes": {
+          "sha256": "cea65312168e084f328ce3a094033d1f62d0569b02c52bfb1f65ddb82f98bdfc"
+        },
+        "version": 66
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "4bd313fa850a8ad783b7a435bf37f5f8b98bf50a7a96fba37440f8e711b49fe4",
+      "sig": "b5843e8220391a435aef800958f4dc70354b43a9571f7d8952f2a4bece694ed5e9df80a13816af1ecef1ff6c130057e575a235fc2bc8e0928119f97fbf867709"
+    }
+  ]
+}

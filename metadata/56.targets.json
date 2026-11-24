@@ -1,0 +1,78 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 56,
+    "expires": "2027-04-23T09:24:44.406016Z",
+    "targets": {
+      "ssagent-macos-arm64": {
+        "length": 15449136,
+        "hashes": {
+          "sha256": "7ae5a18e716613f164f717fd60a1e23aa59c5a8943fe473a23a277d6d7850acf"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792920284383,
+            "version": "0.3.50",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-windows-arm64.exe": {
+        "length": 15563776,
+        "hashes": {
+          "sha256": "c9c141cbb46a5626ad70133d292274ad788b23f554aafd622a68138c82f78b1c"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792920284326,
+            "version": "0.3.50",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {
+        "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "cd9efb575ba055e7721b6396062e4b722c23c64fdaf69264fa2c11da9f81d8e8"
+          },
+          "scheme": "ed25519"
+        }
+      },
+      "roles": [
+        {
+          "name": "monitoring",
+          "keyids": [
+            "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770"
+          ],
+          "threshold": 1,
+          "paths": [
+            "monitoring-catalog.json"
+          ],
+          "terminating": true
+        }
+      ]
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18cfe1fede878bcecf1b42b00bb2ab24506fae2f7a2b364b368297bfc99c3998",
+      "sig": "9414bf1a34b76dfc991fbe4db7188c345a5210d7f1ca34a301babf5bc0efd80e289a980aa0a5b8e39de92f1574825725dd1f27e61d5bad6d3a60dc6da7435a06"
+    }
+  ]
+}

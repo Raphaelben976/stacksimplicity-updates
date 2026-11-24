@@ -1,0 +1,59 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 44,
+    "expires": "2027-04-20T17:57:38.692732Z",
+    "targets": {
+      "ssagent-windows-arm64.exe": {
+        "length": 14796800,
+        "hashes": {
+          "sha256": "5d599e8a41cf2e4b6a334a1922dc111aa28426c0ea10a21c9f14a981a62d8924"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792691858671,
+            "version": "0.3.39",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {
+        "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "cd9efb575ba055e7721b6396062e4b722c23c64fdaf69264fa2c11da9f81d8e8"
+          },
+          "scheme": "ed25519"
+        }
+      },
+      "roles": [
+        {
+          "name": "monitoring",
+          "keyids": [
+            "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770"
+          ],
+          "threshold": 1,
+          "paths": [
+            "monitoring-catalog.json"
+          ],
+          "terminating": true
+        }
+      ]
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18cfe1fede878bcecf1b42b00bb2ab24506fae2f7a2b364b368297bfc99c3998",
+      "sig": "62bcf1744ed920568341ec391599ecd32f3f51e8d80e94a43924cbd09c05d0b2c15fe88b58b95f1d4913306b35d361f193294c0bb14bd649ce2361a4a5435101"
+    }
+  ]
+}

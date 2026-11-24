@@ -1,0 +1,154 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 206,
+    "expires": "2027-04-24T14:05:18.800226Z",
+    "targets": {
+      "ssagent-macos-x64": {
+        "length": 18612404,
+        "hashes": {
+          "sha256": "af0dd599702b7360585e2e819a8ce8dbfbe28ff5ea33c9cc82953a9cb9952f32"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793016785310,
+            "version": "0.3.79",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-windows-x64.exe": {
+        "length": 18760192,
+        "hashes": {
+          "sha256": "d9fb0420bfb2c146620c8d1fe702869ac00aaa76af7bfde5a4169fac9359ae5a"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793016785150,
+            "version": "0.3.79",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-linux-arm64": {
+        "length": 14268784,
+        "hashes": {
+          "sha256": "c4780e88f13277af5c044e94f9c260b829fa5d48620cd4c5db513f5b40a9060c"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793016785379,
+            "version": "0.3.79",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-windows-arm64.exe": {
+        "length": 15951872,
+        "hashes": {
+          "sha256": "6a20f147dd9391315032bfa06bc057a8192c4447b2a8799141eac87be71e13b1"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793023518748,
+            "version": "0.3.80",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-linux-x64": {
+        "length": 16488880,
+        "hashes": {
+          "sha256": "55802840d737c4193b9ad1adb045510284edce83b3a2bc22ae7fac327a9d8ed2"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793016785440,
+            "version": "0.3.79",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-macos-arm64": {
+        "length": 17181616,
+        "hashes": {
+          "sha256": "b7a928df69004c099bc3f7f62510cd52891ca0b1ca9f1c3d992b9a8da784321f"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793016785234,
+            "version": "0.3.79",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {
+        "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "cd9efb575ba055e7721b6396062e4b722c23c64fdaf69264fa2c11da9f81d8e8"
+          },
+          "scheme": "ed25519"
+        }
+      },
+      "roles": [
+        {
+          "name": "monitoring",
+          "keyids": [
+            "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770"
+          ],
+          "threshold": 1,
+          "paths": [
+            "monitoring-catalog.json"
+          ],
+          "terminating": true
+        }
+      ]
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18cfe1fede878bcecf1b42b00bb2ab24506fae2f7a2b364b368297bfc99c3998",
+      "sig": "7e54b47dbe8b07f2376c088eeb32594e0ef5f1f925175685bab66f392ef23a42a3d67823740c65c35e81ee174aa14658d7e7ebe2cfea6b8e7f2e95b0fab1a806"
+    }
+  ]
+}

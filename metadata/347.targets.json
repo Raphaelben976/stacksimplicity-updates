@@ -1,0 +1,310 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 347,
+    "expires": "2027-05-02T19:06:28.190163Z",
+    "targets": {
+      "ssagent-linux-arm64": {
+        "length": 15127064,
+        "hashes": {
+          "sha256": "18a24248951961bed63724eb45f005aaea2c0487bd732f096fb96b800e5d776e"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793732787928,
+            "version": "0.3.94",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "osquery-macos-x64": {
+        "length": 44658752,
+        "hashes": {
+          "sha256": "675bd615bd479b52aa983f560b53d72b10a1bf077349e94dedb97491e3886bbc"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793167880570,
+            "version": "5.24.0"
+          }
+        }
+      },
+      "ssagent-linux-x64": {
+        "length": 17456144,
+        "hashes": {
+          "sha256": "0f25e085b6cbf112e04b0e695f6120e2b0766753949f15f6242f75602fa4528e"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793732787881,
+            "version": "0.3.94",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-macos-x64": {
+        "length": 19685668,
+        "hashes": {
+          "sha256": "8eda1b75c11146afdcf5203b54f8199161d3dcad18787c6ada019c8e207373f1"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793732787809,
+            "version": "0.3.94",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-linux-arm64.deb": {
+        "length": 4203800,
+        "hashes": {
+          "sha256": "f482e3ec4ea86464c39c4aefaec7e4d68e2c6e4d30bcf25023420c41c00e92d7"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732788096,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "ssagent-windows-arm64.msi": {
+        "length": 17029632,
+        "hashes": {
+          "sha256": "7b7dd0c0cb2a6ef2ff42844df38c265dbce91e9a97bd51bbc7142658982948d0"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732788025,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "ssagent-windows-x64.exe": {
+        "length": 19849216,
+        "hashes": {
+          "sha256": "1f8327df56ad2c30b6e4e3e8813f32cf7067a571fd28c3dc24d5e2e092bebc9b"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793732787659,
+            "version": "0.3.94",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-macos.pkg": {
+        "length": 14906816,
+        "hashes": {
+          "sha256": "90a4a216d3cc2ef747e6b0ff94c31beb589f5f7ef4fb4e90b2512340ee5645b3"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732788165,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "osquery-macos-arm64": {
+        "length": 44658752,
+        "hashes": {
+          "sha256": "675bd615bd479b52aa983f560b53d72b10a1bf077349e94dedb97491e3886bbc"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793167880407,
+            "version": "5.24.0"
+          }
+        }
+      },
+      "ssagent-windows-arm64.exe": {
+        "length": 16884224,
+        "hashes": {
+          "sha256": "b92f5cdbf2b26ddc109c0a69bb5ac2208a8ec853b7edf34673de8cbb6506ec7c"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793732787713,
+            "version": "0.3.94",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "osquery-linux-x64": {
+        "length": 34694792,
+        "hashes": {
+          "sha256": "d9c2e62dc2e6e2213f99702e5f78232b1a5a52567a04de5b368b48a6cbea9af5"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793167880153,
+            "version": "5.24.0"
+          }
+        }
+      },
+      "ssagent-linux-x64.deb": {
+        "length": 4765800,
+        "hashes": {
+          "sha256": "c01a240f2473ca50d7fabef9f57ba4addf16a2f2e9d18ca3fb72b4ba3c98df22"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732788076,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "ssagent-linux-arm64.rpm": {
+        "length": 6647939,
+        "hashes": {
+          "sha256": "e55db1f8ef16097dd1ad28aca9fddf6df780d0ed94fdc41d3b4ac22a14154ed2"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732788141,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "ssagent-windows-x64.msi": {
+        "length": 20018176,
+        "hashes": {
+          "sha256": "ebf6503c429f963ed85620375dfa3d694d4a115e8b8a8656fdb58e6467bbeab9"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732787968,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "osquery-linux-arm64": {
+        "length": 32586144,
+        "hashes": {
+          "sha256": "ec051fb880ed9a7f625a1d81c9de7f5f160cea20b1ebea223091196484f0dfe3"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793167880284,
+            "version": "5.24.0"
+          }
+        }
+      },
+      "osquery-windows-x64.exe": {
+        "length": 27217776,
+        "hashes": {
+          "sha256": "b08912b6579a23bab765d7ac12ff2b0bdebdd79ffcd28dff881a6637a6422201"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793167880055,
+            "version": "5.24.0"
+          }
+        }
+      },
+      "ssagent-macos-arm64": {
+        "length": 18177792,
+        "hashes": {
+          "sha256": "deae7b70aee280125bc074ab4fb1d028f0cca720f7b35e756a605f383f4c2b6a"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1793732787759,
+            "version": "0.3.94",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      },
+      "ssagent-linux-x64.rpm": {
+        "length": 7092641,
+        "hashes": {
+          "sha256": "7d5210c3e5c03cc1001372fc6f1a320827d0ba88d0fec09bd5a750d5afa67b99"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793732788116,
+            "version": "0.3.94"
+          }
+        }
+      },
+      "osquery-windows-arm64.exe": {
+        "length": 18151280,
+        "hashes": {
+          "sha256": "350e5312aa325c25d9d757f301358893c0ffd20dda4928a83dae1e5413d4abe0"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793167879991,
+            "version": "5.24.0"
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {
+        "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770": {
+          "keytype": "ed25519",
+          "keyval": {
+            "public": "cd9efb575ba055e7721b6396062e4b722c23c64fdaf69264fa2c11da9f81d8e8"
+          },
+          "scheme": "ed25519"
+        }
+      },
+      "roles": [
+        {
+          "name": "monitoring",
+          "keyids": [
+            "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770"
+          ],
+          "threshold": 1,
+          "paths": [
+            "monitoring-catalog.json"
+          ],
+          "terminating": true
+        }
+      ]
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18cfe1fede878bcecf1b42b00bb2ab24506fae2f7a2b364b368297bfc99c3998",
+      "sig": "3bc21700abb9cbf968d7538df1bb1129c250f8c52d62338c1727b970a168dcc1adbc24e6f81b86630e0eff3f10e850b3da2e790c2e99e169e0e2851e5847700d"
+    }
+  ]
+}

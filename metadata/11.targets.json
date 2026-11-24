@@ -1,0 +1,39 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 11,
+    "expires": "2027-04-18T17:38:15.617169Z",
+    "targets": {
+      "ssagent-windows-arm64.exe": {
+        "length": 9550336,
+        "hashes": {
+          "sha256": "0882c17cab6fecaac30128740cc6b885a7f3e9b3c1fda9f2a4af255558708a01"
+        },
+        "custom": {
+          "ssrmm": {
+            "critical": false,
+            "published_at_ms": 1792517895593,
+            "version": "0.3.7",
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18cfe1fede878bcecf1b42b00bb2ab24506fae2f7a2b364b368297bfc99c3998",
+      "sig": "d0735eb4bdb73271278ad1caa04a0dae0f5be39e4b55bb281219b0276ccde5e4b2e5cbe6d2eda867f519279de54ea8550d5562b8b5b11361eb9147fd30f9e202"
+    }
+  ]
+}

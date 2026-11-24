@@ -1,0 +1,50 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 4,
+    "expires": "2027-04-26T11:13:26.086859Z",
+    "targets": {
+      "monitoring-catalog.json": {
+        "length": 104344,
+        "hashes": {
+          "sha256": "79bcaa18a77d6e89857a1ba14319f0d3bbc5cb75dc466c2565ee02f2d844b392"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1793186006082,
+            "version": 4,
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 1
+              },
+              {
+                "after_hours": 24,
+                "percent": 10
+              },
+              {
+                "after_hours": 48,
+                "percent": 50
+              },
+              {
+                "after_hours": 72,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770",
+      "sig": "c92d0da4e44895880c2c6925e7d979b6f52bbd20bb2c636e1b469bff123737bfcf806d9aff57c2a81808e41f1ae00c9645d276c71794ee53442a81f526511d05"
+    }
+  ]
+}

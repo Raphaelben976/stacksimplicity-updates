@@ -1,0 +1,38 @@
+{
+  "signed": {
+    "_type": "targets",
+    "spec_version": "1.0.0",
+    "version": 2,
+    "expires": "2027-04-20T09:39:06.776246Z",
+    "targets": {
+      "monitoring-catalog.json": {
+        "length": 104355,
+        "hashes": {
+          "sha256": "002fe02a7966ed4162fe20804cf907b0612ce771a06fa0d04ca8e783597e15d9"
+        },
+        "custom": {
+          "ssrmm": {
+            "published_at_ms": 1792661946772,
+            "version": 2,
+            "waves": [
+              {
+                "after_hours": 0,
+                "percent": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    "delegations": {
+      "keys": {},
+      "roles": []
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "c29acd27ce694f5ba54042c8bec35f9964fca0524a1bb6ff3ba0e8467e121770",
+      "sig": "5720011b3171b427174e6d141a9d060a621e4c14a651c5a50031b36fa95dd0671f0a0b1d5f8f12c2a5ffd6437af431aca5bfa4cbbf8449801ddb8993febd5606"
+    }
+  ]
+}
